@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+ul li {
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.header{
+    background-image: url(./img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-top-menu{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding-top: 50px;
+    margin: auto;   
+}
+.portfolio{
+    font-size: 35px;
+    font-weight: 700;
+}
+.portfolio span{
+    color: crimson;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 50px; 
+}
+
+nav ul li a{
+    color: #fff;
+    font-weight: 700;
+    transition: .5s;
+}
+
+nav ul li a:hover{
+    color: crimson;
+}
+
+.btn{
+    border: 2px solid crimson;
+    background-color: crimson;
+    padding: 10px 25px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    border: 2px solid crimson;
+    background-color: rgb(0, 0, 0); 
+}
+
+
+
+.header-text{
+    color: #fff;
+    text-align: left;
+    padding: 150px 120px;
+}
+
+.header-text p{
+    color: rgb(171, 138, 201);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.header-text h1{
+    font-size: 72px;
+}
+
+.header-text span{
+    color: crimson;
+}
+
+.header-text h4{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.header-text .email-start{
+    border: 2px solid crimson;
+    border-radius: 30px;
+    text-align: left;
+    width: 350px;
+    height: 45px;
+    background: #fff;
+    padding: 10px;
+    line-height: 25px;
+    margin-top: 60px;
+    position: relative;
+}
+.header-text input{
+    border: none;
+    outline: none;
+    width: 220px;
+    height: 30px;
+    position: absolute;
+    left: 5px;
+    top: 5px;   
+}
+
+.email-start button{
+    border: 2px solid crimson;
+    background: crimson;
+    color: #fff;
+    padding: 0 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    line-height: 30px;
+    position: absolute;
+    top: 3px;
+    right: 5px;
+}
+
+/* about */
+
+.about{
+    background-color: #191919;
+    height: 800px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-col{
+    width: 100%;
+    margin-top: 100px; 
+}
+
+.row-col img{
+    width: 700px;
+    height: 600px;
+    padding-left: 250px;
+}
+
+.row-col-text{
+    text-align: left;
+    padding-left: 70px;
+    padding-right: 250px;
+    color: #fff;
+}
+
+.row-col-text h1{
+    font-size: 72px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.row-col-text h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.row-col-text span{
+    color: crimson;
+ 
+}
+
+.row-col-text p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    color: rgb(171, 138, 201);
+}
+
+.row-col-text button{
+    border: 2px solid crimson;
+    background: crimson;
+    color: #fff;
+    padding: 5px 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.row-col-text button:hover{
+    border: 2px solid crimson;
+    background: #000;
+}
+
+/* service */
+
+.service{
+    background: #000;
+    color: #fff;
+    height: 800px;
+    width: 100%;
+}
+
+.service h1{
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    font-size: 72px;
+}
+
+.service-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-box{
+    background: #191919;
+    color: #fff;
+    width: 350px;
+    height: 400px;
+    margin-left: 30px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.fa-solid{
+    font-weight: 800;
+}
+
+.row-box i {
+    color: crimson;
+    display: block;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.row-box {
+    background: #191919;
+    color: #fff;
+    width: 350px;
+    height: 400px;
+    margin-left: 30px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.row-box h4{
+    font-size: 24px; 
+}
+
+.row-box p{
+    padding: 40px 40px;
+    line-height: 25px;
+    color: rgb(171, 138, 201);
+    font-weight: 500;
+}
+
+ /* let-me */
+
+.let-me{
+    background: #191919;
+    width: 100%;
+    height: 250px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.let-me h3{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.let-me .btn{
+    margin-top: 25px;
+    padding: 10px 40px;
+}
+
+/* footer */
+
+footer{
+    background: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;  
+    height: 400px;
+    position: relative;
+}
+
+footer h3{
+    font-size: 36px;
+}
+
+footer p{
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+}
+.social a{
+    color: crimson;
+    font-size: 30px;
+    margin: 15px 20px;
+}
+.fa-brands{
+    color: crimson;
+}
+
+footer .footer-end{
+    color: crimson;
+    position: absolute;
+    bottom: 35px;
+    font-size: 14px;
+
+}
